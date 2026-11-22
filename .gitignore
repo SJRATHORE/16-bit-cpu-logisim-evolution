@@ -1,0 +1,6 @@
+# Operating system / editor noise
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+~$*
