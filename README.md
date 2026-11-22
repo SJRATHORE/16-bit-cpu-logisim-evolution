@@ -107,7 +107,7 @@ The screenshot displays a separate 5-bit opcode and flag. Instruction decoding a
 
 ## Subcircuit gallery
 
-One of the goals of this repository is to preserve screenshots of the **mini systems** that make up the project. These should be added under `assets/images/subcircuits/` and documented in [docs/subcircuits.md](docs/subcircuits.md).
+The screenshots below highlight representative **mini systems** from the project. Other circuit definitions remain available in the `.circ` file and are catalogued in [docs/subcircuits.md](docs/subcircuits.md).
 
 ### Recommended screenshot categories
 
@@ -136,9 +136,7 @@ These screenshots come from the supplied Logisim project and show both the integ
 
 ### Final integrated CPU — `BOSS_VIVA_JUMP_3`
 
-![BOSS_VIVA_JUMP_3 integrated CPU](assets/images/final-cpu/boss-viva-jump-3-overview.png)
-
-The final circuit brings together the CPU registers, memory interfaces, ALU-related path, instruction/control circuitry, and numerous control signals. See [Architecture](docs/architecture.md) for an explanation of the supplied design requirements and their relation to the schematic.
+The overview image at the top shows the final integrated CPU. It brings together the CPU registers, memory interfaces, ALU-related path, instruction/control circuitry, and numerous control signals. See [Architecture](docs/architecture.md) for an explanation of the supplied design requirements and their relation to the schematic.
 
 ### ALU — `Aloo`
 
@@ -184,13 +182,7 @@ This combines two 8-bit comparator stages. The outputs encode `A < B` as 1, `A =
 
 ### Instruction splitting, program control, and datapath
 
-![Instruction register and fields](assets/images/subcircuits/decoders/instruction-splitter.png)
-
-![Control ROM and signal lines](assets/images/control/control-rom-signals.png)
-
-![CPU datapath detail](assets/images/final-cpu/datapath-closeup.png)
-
-For an expanded gallery and source circuit names, see [Subcircuits](docs/subcircuits.md).
+The instruction splitter, control ROM, and datapath are illustrated once in the [Program execution and control ROM](#program-execution-and-control-rom) section above. For an expanded component index and source circuit names, see [Subcircuits](docs/subcircuits.md).
 
 ## Selected custom subcircuits found in the `.circ` file
 
